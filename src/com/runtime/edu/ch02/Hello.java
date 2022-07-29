@@ -5,10 +5,13 @@ public class Hello {
 	public static void main(String[] args) {
 
 		boolean abc = true;
+		System.out.println(abc);
 		boolean xyz;
 		xyz = false;
+		System.out.println(xyz);
 
 		int width = 100;
+		System.out.println(width);
 
 		String name = "LGG";
 
