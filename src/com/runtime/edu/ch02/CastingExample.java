@@ -43,7 +43,7 @@ public class CastingExample {
 		System.out.println("string > int : "+ intValue4);
 		
 		short test = 151;
-		int test2 = test / 7;
+		short test2 = (short) (test / 7);
 		System.out.println("result : " + test2);
 		
 	}
