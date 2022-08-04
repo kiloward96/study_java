@@ -9,6 +9,15 @@ public class ConditionalOperatorExample {
 		char grade = score > 90 ? 'A' : 'B' ;
 		
 		System.out.println("grade: " + grade);
+		
+		System.out.println("---------------------");
+		
+		if (grade > 90) {
+			System.out.println("Grade : A");
+		}
+		else {
+			System.out.println("Grade : B");
+		}
 
 	}
 
