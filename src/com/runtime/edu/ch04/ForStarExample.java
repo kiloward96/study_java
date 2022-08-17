@@ -29,40 +29,39 @@ public class ForStarExample {
 //		1 3 5 7 90
 //		출력하는 프로그램을 만드시요
 
-//		for (int i = 0; i < 5; i++) {
-//			for (int j = 0; j <10; j++) {
-//				System.out.print("*");
-//			}
-//			System.out.println("");
-//		}
-//		System.out.println("");
-//
-//		for (int i = 0; i <= 4; i++) {
-//			if (i == 0 || i == 4) {
-//				System.out.println("**********");
-//			}
-//			else {
-//				System.out.println("*        *");
-//			}
-//		}
-//		System.out.println("");
-//
-//		for (int i = 1; i < 5; i++) {
-//			for (int j = 0; j < i; j++) {
-//				System.out.print("*");
-//			}
-//			System.out.println("");
-//		}
+		for (int i = 0; i < 5; i++) {
+			for (int j = 0; j < 10; j++) {
+				System.out.print("*");
+			}
+			System.out.println("");
+		}
+		System.out.println("------------------------------");
+
+		for (int i = 1; i <= 5; i++) {
+			for (int j = 0; j <= 9; j++) {
+				if (i > 1 && i < 5) {
+					if (j > 0 && j < 9) {
+						System.out.print(" ");
+					} else {
+						System.out.print("*");
+					}
+				} else {
+					System.out.print("*");
+				}
+			}
+			System.out.println("");
+		}
+		System.out.println("------------------------------");
 
 		for (int i = 1; i <= 11; i++) {
 			for (int j = 1; j < i; j++) {
-				if (i == 11 && j % 2 == 0 && j != 10) {
+				if (i == 11 && j > 1 && j < 9 && j%2 == 0) {
 					System.out.print(" ");
 				} else {
 					System.out.print(j % 10);
 				}
 			}
-			System.out.println("");
+			System.out.println();
 		}
 
 	}
