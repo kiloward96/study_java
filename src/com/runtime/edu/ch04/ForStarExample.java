@@ -56,11 +56,10 @@ public class ForStarExample {
 
 		for (int i = 1; i <= 11; i++) {
 			for (int j = 1; j < i; j++) {
-				if (i == 11 && (j == 2 || j == 4 || j == 6 || j == 8)) {
+				if (i == 11 && j % 2 == 0 && j != 10) {
 					System.out.print(" ");
-				}
-				else {
-					System.out.print(j%10);
+				} else {
+					System.out.print(j % 10);
 				}
 			}
 			System.out.println("");
