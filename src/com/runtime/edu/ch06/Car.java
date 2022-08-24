@@ -8,4 +8,9 @@ public class Car {
 	String[] name2 = {"이규관", "고소영"};
 	
 	// method : 함수
+	
+	static void aaa() {
+		Arithmetic arithmetic = new Arithmetic();
+		arithmetic.calcResult(10);
+	}
 }

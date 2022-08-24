@@ -23,7 +23,7 @@ public class CarConstructorExecute {
 		System.out.println("차종: " + carconstructor4.name);
 		System.out.println("CC: " + carconstructor4.cc);
 		System.out.println("색상: " + carconstructor4.color);
-
+		
 	}
 
 }
